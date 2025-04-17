@@ -5,7 +5,7 @@
 <ul class="list-group">
 @foreach ($movies as $movie)
     
-    <li class="list-group-item">
+    <li>
         <x-card>
             <x-slot:title>
                 {{$movie["title"]}}
