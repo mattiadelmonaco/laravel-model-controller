@@ -2,10 +2,10 @@
 
 @section("content")
 
-<ul class="list-group">
+<ul class="list-unstyled text-white d-flex flex-wrap gap-5 justify-content-center">
 @foreach ($movies as $movie)
     
-    <li>
+    <li class="d-flex justify-content-center" style="flex: 1 1 600px; max-width: 600px;">
         <x-card>
             <x-slot:title>
                 {{$movie["title"]}}

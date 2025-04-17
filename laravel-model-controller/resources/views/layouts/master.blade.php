@@ -7,11 +7,11 @@
     <title>Laravel Model Controller</title>
     @vite(['resources/sass/app.scss', "resources/js/app.js"])
 </head>
-<body>
+<body class=" bg-dark">
 
     @include("partials.header")
 
-    <main>
+    <main class="container py-5">
         @yield("content")
     </main>
 
